@@ -1,0 +1,46 @@
+.first{
+    display: flex;
+}
+.v2{
+    padding: 10px;
+    text-align: justify;
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    border: 2px solid aqua;
+    width: 25%;
+    padding: 12px;
+    box-shadow: 2px 2px 5px rebeccapurple;
+    margin: 20px;
+    height: 240px;
+}
+.paka{
+    display: flex;
+    margin: 23px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:40px;
+}
+.k2{
+    color:blue;
+}
+@media only screen and (max-width:1024px){
+
+    .container{
+
+        height: 260px;
+    }
+}
+@media only screen and (max-width:768px){
+
+    .container{
+
+        height: 260px;
+    }
+
+    
+}

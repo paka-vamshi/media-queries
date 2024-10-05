@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        
+       .nav{
+            border: 0px solid;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            height: 40px;
+            width: 100%;
+            color: black;
+            justify-content: space-evenly;
+            position: fixed;
+            align-items: center;
+            background-color: aqua;
+            
+    
+
+        }
+        .menu{
+            width: 30px;
+            height: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+        }
+        .cont{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            border: 0px solid;
+            padding-left: 15px;
+            width: 100%;
+            gap:20px;
+            justify-content: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        b{
+            font-size: 20px;
+        }
+        p{
+            font-style:italic;
+        }
+        .hovr{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            padding: 20px 590px;
+        }
+        .hov:hover{
+            color: black;
+            background-color: brown;
+            width: 0%;
+            transform: scale(2.0);
+        }
+        .id1{
+            width: 100%;
+            height: 2px;
+            background-color: black;
+            border-radius: 2px;
+        }
+        .jadi{
+            text-align: center;
+        }
+        .sal{
+            font-size: 20px;
+        }
+        .foot{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            column-gap: 40px;
+        }
+        strong{
+            background-color: rgb(183, 178, 168);
+            color: antiquewhite;
+            
+        }
+        @media only screen and (max-width:1024px){
+            .cont{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                padding-left: 6%;
+            }
+        }
+        @media only screen and (max-width:768px){
+            .cont{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                padding-left: 26%;
+                width: 100%;
+            }
+            .jadi{
+                width: 100%;
+                padding-left: 25%;
+            }
+            .sal{
+                width: 100%;
+                padding-left: 16%;
+            }
+            .foot{
+                padding-left: 20%;
+            }
+        }
+        
+        </style>
+</head>
+<body>
+    <div class ="nav">
+        <button class ="menu">
+            
+            <div class="id1"></div>
+            <div class="id1"></div>
+            <div class="id1"></div>
+           
+        </button>
+        <a href ="#Menu">MyFood</a>
+        <a href ="#Menu">Mail</a>
+    </div>
+    <br>
+    <br>
+
+        <div class="cont">
+            <div>
+                <img src="food1.png" height="500px">
+                <b>The Perfect Sandwich, A Real NYC Classic</b>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div>
+                <img src="food2.png" height="500px">
+                <b>Let Me Tell You About This Steak</b>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div>
+                <img src="food3.png" height="500px">
+                <b>Cherries, interrupted</b>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                <p style="text-align: center;">What else?</p>
+            </div>
+            <div>
+                <img src="food4.png" height="500px">
+                <b>Once Again, Robust Wine and Vegetable Pasta</b>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div>
+                <img src="food5.png" height="500px">
+                <b>All I Need Is a Popsicle</b>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div>
+                <img src="food6.png" height="500px">
+                <b>Salmon For Your Skin</b>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div>
+                <img src="food7.png" height="500px">
+                <b>The Perfect Sandwich, A Real Classic</b>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div>
+                <img src="food8.png" height="500px"><br>
+                <b>Le French</b>
+                <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        
+        <div class="hovr">
+            <div class="hov">&#129176;</div>
+            <div class="hov">1</div>
+            <div class="hov">2</div>
+            <div class="hov">3</div>
+            <div class="hov">4</div>
+            <div class="hov">&#129178;</div>
+
+        </div>
+        <div class="jadi">
+            <b>About Me, The Food Man</b><br><br>
+            <img src ="frd.png" height="400px">
+            <h4>I am Who I Am!</h4>
+            <i>With Passion For Real, Good Food</i>
+        </div>
+        <br>
+        <div class ="sal">
+            <i>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</i>
+        </div>
+    <div class ="foot">
+        <div class ="el1">
+            <h2>FOOTTER</h2>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>Powered By<a href="https://www.w3schools.com/w3css/default.asp">W3.Css</a></p>
+
+        </div>
+        <div class ="el2">
+            <h2>BloG posts</h2>
+            <img src ="https://www.w3schools.com/w3images/workshop.jpg" height="50px" width="40px">
+            <p>Lorem</p>
+            <p>Sed mattis nunc</p>
+        <div class ="el2">
+            <img src ="https://www.w3schools.com/w3images/gondol.jpg"  height="50px" width="40px">
+            <p>Ipsum</p>
+                       <p>Praes tinci sed</p>
+        </div>
+        </div>
+        <div class ="el3">
+            <h2>POPULAR TAGS</h2>
+            <strong style="background-color:black;">Travel</strong>
+            <strong>New York</strong>
+            <strong>Dinner</strong>
+            <strong>SAlmon</strong>
+            <strong>France</strong>
+            <strong>Drinks</strong>
+            <strong>Ideas</strong>
+            <strong>Duck</strong>
+            <strong>Travel</strong>
+            <strong>New York</strong>
+            <strong>Dinner</strong>
+            <strong>SAlmon</strong>
+            <strong>France</strong>
+            <strong>Drinks</strong>
+            <strong>Ideas</strong>
+            <strong>Duck</strong>
+        </div>
+
+    </div>
+</body>
+</html>
