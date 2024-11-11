@@ -39,7 +39,17 @@
 
     .container{
 
-        height: 260px;
+        height: 300px;
+    }
+
+    
+}
+@media only screen and ( max-width:430px){
+
+    .container{
+
+        height: 300px;
+        width: 200px;
     }
 
     
